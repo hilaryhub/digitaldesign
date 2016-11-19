@@ -1,0 +1,68 @@
+/*High res*/
+@media only screen and (min-width: 1024px) 
+
+
+#master {width: 95%; margin: 0 auto; background: rgb(255,255,255);}
+
+body {width: 90%; border: 1px solid rgb(0,0,0); margin: 5%; }
+
+p { color: #1F1F1F; line-height: 120%; font-family: 'Josefin Slab', serif; font-size: 40px;}
+
+
+header {margin-left: 3%; margin-right: 3%; }
+
+header p {font-size: 200%; border-bottom: black dotted 2px;}
+
+#header p {text-align: left; line-height: 120%; font-family: 'Josefin Slab', serif; font-size: 140%; color:rgb(0,0,0) }
+
+
+#logo {display: block; margin: 2% auto; width: 30%; height: auto;}
+
+img {margin: auto; display: block; padding: auto;}
+
+
+nav {list-style: none; text-align: center; margin: 0 auto; border-bottom: black 2px dotted; }
+
+
+
+nav li {display:inline; line-height: 100%; font-family: 'Josefin Slab', serif; font-size: 150%; padding: 2%; }
+
+
+nav a {text-decoration: none; color:rgb(0,0,0);}
+
+
+
+#MyWorks {font-family: 'Raleway', sans-serif; font-size: 300%; text-align: center; }
+
+
+
+.contentbox {width: auto; height: auto; border: black 1px dotted; position: relative;}
+
+.contentbox p {margin-left: 8%;}
+
+.ism-slider {margin-left: 2%; }
+
+#flowerbullet {position: absolute; z-index: 0; top:2% ; left: 2%;}
+
+a:visited {color: black;}
+
+a:link {color: black; text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+#thumbbox {width: auto; height: auto; border: black 1px dotted; position: relative; list-style: none; }
+
+#thumbbox p {margin-left: 8%;}
+
+#thumbbox li { display:inline-block; margin-left: 10%;}
+
+video {width: 70%; height: auto; margin-left: 2% ; }
+
+/*Medium res*/
+@media only screen and (min-width: 768px)
+
+
+
+
+/*Low res*/
+@media only screen and (max-width: 768px)
